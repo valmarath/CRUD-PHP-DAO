@@ -2,6 +2,6 @@
 $db_name = 'test';
 $db_host = 'localhost';
 $db_user = 'root';
-$db_pass = 'naodamais@8';
+$db_pass = ''; #your sql password here, if you have one
 
 $pdo = new PDO("mysql:dbname=".$db_name.";host=".$db_host, $db_user, $db_pass);
